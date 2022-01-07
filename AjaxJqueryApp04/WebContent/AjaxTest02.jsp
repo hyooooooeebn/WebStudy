@@ -28,7 +28,7 @@
 				, url : "AjaxTest02_ok.jsp"
 				, data : params
 				//, async : false --동기  ※ 동기 방식으로 사용하지 않는다 그냥 가지고 있는 속성값
-				, dataType : "xml"		//--check~!!!
+				, dataType : "xml"		//--check~!!!!
 				, success : function(args)
 				{
 					var out = "";
