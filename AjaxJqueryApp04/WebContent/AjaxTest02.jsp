@@ -72,7 +72,7 @@
 	{
 		if(!$.trim($("#name").val()))
 		{
-			alert("이름을 입력해야합니다.");
+			alert("이름을 입력해야합니다!!!");
 			$("#name").focus();
 			
 			return false;
@@ -80,7 +80,7 @@
 		
 		if(!$.trim($("#content").val()))
 		{
-			alert("내용을 입력해야 합니다.");
+			alert("내용을 입력해야 합니다!!!");
 			$("#content").focus();
 			
 			return false;
